@@ -1,0 +1,5 @@
+{
+  "extends": "bluecoders",
+  "env": { "mongo": true, "node": true },
+  "plugins": ["node"]
+}

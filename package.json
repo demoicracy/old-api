@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "npm run tests"
+    "local": "NODE_ENV=LOCAL ./node_modules/nodemon/bin/nodemon.js server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/demoicracy/api/issues"
   },
-  "homepage": "https://github.com/demoicracy/api#readme"
+  "homepage": "https://github.com/demoicracy/api#readme",
+  "dependencies": {
+    "mongoose": "^5.5.5",
+    "mongoose-timestamp": "^0.6.0",
+    "respectify": "git+https://github.com/bluecoders/respectify.git",
+    "restify": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-bluecoders": "^1.0.12",
+    "eslint-plugin-node": "^9.0.1",
+    "nodemon": "^1.19.0"
+  }
 }
