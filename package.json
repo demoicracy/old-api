@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "description": "Demoicracy main API",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demoicracy/api.git"
+  },
+  "keywords": [
+    "demoicracy",
+    "api",
+    "people",
+    "power"
+  ],
+  "author": "GaldanM",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/demoicracy/api/issues"
+  },
+  "homepage": "https://github.com/demoicracy/api#readme"
+}
